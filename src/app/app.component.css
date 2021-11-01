@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 100%;
+}
+
+.container .main{
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main input{
+  margin: 0px 5px 0px 5px;
+  height: 20px;
+}
+
+.main .buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  margin: 5px;
+}
+
+.main .buttons button{
+  padding: 10px;
+}
+.buttons .main-buttons{
+  background-color: darkslategray;
+  color: white;
+}
+.buttons .top-buttons{
+  background-color: lightgray;
+  color: black;
+}
+.buttons .task-buttons{
+  background-color: orange;
+  color: black;
+}
